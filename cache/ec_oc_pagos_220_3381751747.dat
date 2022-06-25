@@ -1,0 +1,1 @@
+DELETE FROM ec_oc_pagos WHERE id_oc_recepcion = '220'|

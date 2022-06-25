@@ -1,0 +1,1 @@
+DELETE FROM ec_productos_configurables WHERE id_producto = '1821'|

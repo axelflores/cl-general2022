@@ -1,0 +1,1 @@
+DELETE FROM ec_oc_otros WHERE id_orden_compra = '241'|

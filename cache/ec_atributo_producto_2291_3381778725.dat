@@ -1,0 +1,1 @@
+DELETE FROM ec_atributo_producto WHERE id_producto = '2291'|

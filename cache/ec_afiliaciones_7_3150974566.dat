@@ -1,0 +1,1 @@
+DELETE FROM ec_afiliaciones WHERE id_banco = '7'|

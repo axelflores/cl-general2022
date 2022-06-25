@@ -1,0 +1,1469 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: transparent url(../img/img_casadelasluces/bg8.jpg)repeat;
+	font-family: 'Gafata', sans-serif;
+	font-size: 15px;
+	margin: auto;
+	color: #333;
+}
+img {
+	border: 0;
+}
+.table {
+	background-color: #FFF;
+}
+#footer, .logoheader {
+	width: 890px;
+}
+/**Header**/
+
+header {
+	width: 100%;
+}
+.ctn-header {
+	width: 80%;
+	margin: 0 auto;
+	min-width: 960px;
+}
+.logoheader {
+	width: 74%;
+	float: left;
+}
+.logo-base {
+	width: 200px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../img/img_casadelasluces/logocasadelasluces-easy.png) no-repeat;
+}
+.logo-base span {
+	display: none;
+	text-indent: -9999px;
+}
+.logo-base a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.link-footer, a {
+	text-decoration: none;
+	color: #000088
+}
+.link-footer:hover, a:hover {
+	color: #eebb22;
+}
+.logoheader img {
+	margin-top: -5px;
+	padding: 3px;
+	height: 200px;
+	border-radius: 25px;
+}
+#textobienvenida {
+	font-size: 17px;
+	line-height: 22px;
+	margin: 0 auto;
+	text-shadow: none;
+	background: #fff;
+	padding: 16px;
+	overflow: hidden;
+	float: left;
+	border-radius: 8px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+.h1 {
+	font-size: 21px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	width: 95%;
+	min-width: 960px;
+	margin: auto;
+	overflow: hidden;
+	float: left;
+	padding-bottom: 10px;
+	padding-top: 30px;
+}
+.texto-bien {
+	width: 95%;
+	margin: 0 auto;
+}
+.bloque1 {
+	width: 44%;
+	display: inline-block;
+	margin: 1%;
+	padding: 1%;
+	vertical-align: top;
+}
+h3 {
+}
+#tel, #mail {
+	font-weight: bold;
+	font-size: 15pt;
+	line-height: 2px;
+	width: 50%;
+}
+#tel p, #mail p {
+	margin-left: 8px;
+	display: inline-block;
+}
+#tel img, #mail img {
+	float: left;
+	margin-right: 5px;
+	background: url(../img/telefonoicono2.png)no-repeat;
+	margin-left: 80px;
+}
+#mail img {
+	margin-top: -1px;
+	background: url(../img/mailicono2.png)no-repeat;
+}
+#tel img {
+	margin-top: -2px;
+}
+#tel {
+	float: left;
+}
+#mail {
+	float: right;
+}
+.datosusuario {
+	background: #fff;
+	float: left;
+	width: 168px;
+	padding: 29px;
+	border-right: 1px solid #669999;
+	border-left: 1px solid #669999;
+	border-bottom: 1px solid #669999;
+	border-radius: 0px 0px 4px 4px;
+	box-shadow: 0 0 1px 2px #669999;
+}
+.usuario, .sucursal {
+	text-shadow: none;
+	font-size: 14px;
+}
+.close {
+	/*background: url(../img/billarmex-img/spriteminiz.png) no-repeat 2px -220px;*/
+	width: 22px;
+	height: 22px;
+	float: right;
+	margin-right: 27px;
+	margin-top: -23px;
+}
+.desplegable {
+	margin-left: 13px;
+}
+/**contenido**/
+.desplegable img:hover {
+	opacity: 0.5;
+}
+/*Buscador*/
+.buscador {
+	width: 960px;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+.buscador1 {
+	margin-top: 25px;
+}
+/*.campos{ float:left;}*/
+#contenido {
+	width: 98.758%;
+	min-width: 960px;
+	margin: 0 auto;
+}
+/* main menu styles */
+
+#nav {
+	display: inline;
+	text-align: left;
+	position: relative;
+	list-style-type: none;
+	background: rgba(225,0,0,.8);/*#718B1E Cambio oscar 15.11.2018*/
+}
+#nav > li {
+	float: left;
+	padding: 0;
+	position: relative;
+}
+#nav > li > a {
+	border: 1px solid transparent;
+	color: #fff;
+	display: block;
+	font-size: 90%;
+	padding: 3px 10px;
+	position: relative;
+	text-decoration: none;
+}
+#nav > li > a:hover {
+	background-color:rgba(0,0,0,.5);/* #B0D82B*//*Cambio oscar 15.11.2018*/
+}
+#nav > li.selected > a {
+	background-color:rgba(0,0,0,.5);/*Cambio oscar 15.11.2018*/
+	border-color: rgba(113,139,30,1);
+	z-index: 2;
+}
+#nav li div {
+	position: relative;
+}
+#nav li div div {
+	background: rgba(225,0,0,.8);/*rgba(113,139,30,0.9)Cambio oscar 15.11.2018*/
+	border: 1px solid rgba(113,139,30,1);
+	padding: 12px 0;
+	display: none;
+	font-size: 0.75em;
+	margin: 0;
+	position: absolute;
+	top: -1px;
+	z-index: 1;
+	width: 190px;
+	border-radius: 4px;
+}
+#nav li div div a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #fff;
+	line-height: 22px;
+}
+#nav li div div a:hover {
+	background: rgba(0,0,0,.6);
+	color:white;/* #2C370C*/
+	border-bottom: 1px dotted #2C370C;
+}
+#nav li div div.wrp2 {
+	width: 380px;
+}
+#nav .sep {
+	left: 190px;
+	border-left: 1px solid #E3E3E3;
+	bottom: 0;
+	height: auto;
+	margin: 15px 0;
+	position: absolute;
+	top: 0;
+	width: 1px;
+}
+#nav li div ul {
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+	width: 170px;
+	float: left;
+	list-style-type: none;
+}
+#nav li div ul li {
+	margin: 0;
+	padding: 0;
+}
+#nav li div ul li h3 {
+	border-bottom: 1px solid #E3E3E3;
+	color: #4F4F4F;
+	font-weight: bold;
+	margin: 0 5px 4px;
+	font-size: 0.95em;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+#nav li ul ul {
+	padding: 0 0 8px;
+}
+#nav li ul ul li {
+	margin: 0;
+	padding: 0;
+}
+#nav li ul ul li a {
+	color: #0060A6;
+	display: block;
+	margin-bottom: 1px;
+	padding: 3px 5px;
+	text-decoration: none;
+	font-size: 0.9em;
+	text-decoration: none;
+}
+#nav li ul ul li a:hover {
+	background-color: #0060a6;
+	color: #fff;
+}
+.desplegable img {
+	display: inline-block;
+	padding-left: 2px;
+	padding-right: 4px;
+	vertical-align: bottom;
+}
+#botones {
+	background: none repeat scroll 0 0 rgba(225,0,0,.8);/*#718B1E Cambio oscar 15.11.2018*/
+	border-bottom: 2px solid #363;
+	display: block;
+	height: 18px;
+	margin: 0 auto;
+	padding-bottom: 9px;
+	padding-top: 6px;
+	position: relative;
+	text-align: left;
+	float: left;
+	width: 100%;
+}
+/**Contenido**/
+#titulo {
+	float: left;
+	font-size: 28px;
+	font-weight: bold;
+	/*margin-left: 37px;*/
+	margin-top: -43px;
+	padding: 5px;
+	width: 550px;
+	margin-left: 45px;
+}
+#modulo {
+	background-image: url(../img/billarmex-img/bg_module.png);
+	background-repeat: no-repeat;
+	width: 874px;
+	height: 455px;
+	margin-left: 100px;
+	margin-top: -900px;
+}
+#bg_seccion {
+	margin: 0 auto;
+	max-width: 1600px;
+	width: 96%;
+	min-width: 960px;
+}
+.name_module {
+	border-radius: 0 0 9px 9px;
+	font-size: 18pt;
+	/*margin-left: auto;
+	margin-right:auto;*/
+	margin-top: 23px;
+	width: 900px;
+	float: left;
+	text-align: left;
+	padding: 5px;
+	margin-left: 42px;
+}
+#cosa {
+	border-radius: 4px;
+	/*min-height: 315px;*/
+	padding: 20px 0;
+	background: #F7F7F7;
+	width: 89%;
+	margin-bottom: 15px;
+	overflow-x: scroll;
+	margin: 0 auto;
+	display: inline-block;
+}
+#cosa1 {
+	border-radius: 4px;
+	/*min-height: 315px;*/
+	padding: 20px 0;
+	background: #F7F7F7;
+	width: 100%;
+	margin-bottom: 15px;
+	overflow-x: scroll;
+	margin: 0 auto;
+	display: inline-block;
+}
+.redondo {
+	background: rgba(0,0,0,0.2);
+	text-shadow: none;
+	border-radius: 1px 1px 1px 1px;
+	width: 800px;
+	height: 355px;
+	margin-left: 143px;
+}
+/*Clase de la tablas inputs*/
+.tabla-inputs {
+	padding-top: 27px;
+}
+/**=======*/	
+#blue {
+	width: 800px;
+	height: auto;
+}
+.azul {
+	background-image: url(../img/billarmex-img/pestana.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 208px;
+	text-align: center;
+	padding-top: 3px;
+	float: left;
+}
+.azul_dos {
+	background-image: url(../img/billarmex-img/pestana.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 208px;
+	text-align: center;
+	padding-top: 3px;
+	color: #FFF;
+	float: left;
+}
+.azul_tres {
+	background-image: url(../img/billarmex-img/pestana.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 208px;
+	text-align: center;
+	padding-top: 3px;
+	color: #FFF;
+	float: left;
+}
+.formulario {
+	background-color: #E0E0E0;
+	height: 140px;
+	width: 800px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-ms-border-radius-bottomleft: 10px;
+	-ms-border-radius-bottomright: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	padding-top: 10px;
+}
+#formulario {
+    background:rgba(225,0,0,.8);/*#718B1E Cambio oscarrgba(100,165,18,1);*/
+	width: 325px;
+	border-radius: 4px;
+	-moz-border: 4px;
+	-webkit-border: 4px;
+	padding: 18px;
+	border: 1px solid #59720f;
+	-webkit-box-shadow: 0px 0px 0px 1px rgba(67, 117, 2, 0.5);
+	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+#formulariologin {
+	background-color: #E0E0E0;
+	height: 140px;
+	width: 300px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-ms-border-radius-bottomleft: 10px;
+	-ms-border-radius-bottomright: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	padding-top: 10px;
+}
+.texto_form {
+	font-size: 18px;
+	font-family: 'Gafata', sans-serif;
+}
+/*
+.texto_formlogin{
+	  color: #182E85000;
+    font-size: 12px;
+}*/
+.texto_error_uc {
+	font-size: 12px;
+	color: #F00;
+	padding-bottom: 12px;
+	display: inline-block;
+}
+.comentarios {
+	font-size: 9px;
+	color: #182E85;
+	font-style: italic;
+}
+.barra, .barra_dos, .barra_tres {
+	font-family: 'Gafata', sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	
+}
+textarea {
+	background: #EBCA28;
+	border: none;
+	font-family: 'Gafata', sans-serif;
+	font-size: 16px;
+}
+.barra {
+	background: red;
+	height: 20px;
+	border: none;
+	color: white !important;
+	opacity: 0.2;
+}
+input[type="file"] {
+	height: 25px;
+	background: #fff;
+	color: #333 !important;
+}
+/**modificable**/
+.barra_dos {
+	height: 20px;
+	background: #a6c6f7;
+	color: white !important;
+}
+.barra2 {
+	width: 80% !important;
+}
+/**requridos   **/
+.barra_tres {
+	background: #fff;
+	border: none;
+	color: #333;
+	padding: 9px;
+}
+/**error**/
+#texto {
+	height: 300px;
+	padding-left: 100px;
+	padding-top: 30px;
+}
+.detalle {
+	font-size: 12px;
+}
+.motivo {
+	font-size: 14px;
+}
+/**iconos**/
+#acciones {
+	margin-right: 73px;
+	float: right;/*height:150px;;*/
+}
+/**footer**/
+#linea {
+	border-top: 1px dashed #666;
+	margin: 0 auto;
+	width: 100%;
+	float: left;
+}
+#footer {
+	bottom: 0;
+	margin: auto;
+	height: 80px;
+	margin-top: 80px;
+	font-size: 14px;
+	text-shadow: none;
+	color: #45433D;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;/*background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2) !important;
+	 box-shadow: 2px 2px 26px 2px #000000;*/
+}
+#footer img {
+	max-height: 75px;
+	max-width: 180px;
+}
+#footer a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+}
+#footer a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	color: #09F;
+}
+/*#desarrollado{
+	float: right;
+	color: #666;
+    margin-right: 76px;
+    margin-top: 41px;}*/
+#desarrollado a {
+	color: #1B1464;
+}
+#desarrollado a:hover {
+	color: #440000;
+}
+#ingresa {
+	color: #0080A3;
+	font-size: small;
+	margin-left: 371px;
+	margin-top: -258px;
+	width: 127px;
+}
+#ingresa img {
+	width: 68px;
+}
+#loginP {
+	height: 90%;
+	width: 90%;
+	margin: auto;
+}
+#loginP img {
+	margin: 12% 19%;
+}
+#creditos {
+	padding-top: 15px;
+	font-size: 11pt;
+	margin: 2% auto;
+	color: #666;
+	text-align: center;
+	width: 300px;
+}
+.admin {
+	height: auto;
+	margin-top: 95%;
+	width: 100%;
+}
+.admin h1 {
+	text-align: center;
+	color: #440000;
+}
+.datos {
+	height: auto;
+	width: 300px;
+	margin: auto;
+	margin-top: -172px;
+}
+.botonesacciones, .nuevo {
+	background: #bb6655;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #FFF;
+	color: #fff;
+	font-family: 'Gafata', sans-serif;
+	font-size: 1.25em;
+	text-decoration: none;
+	margin-top: -6px;
+	transition: all 2s;
+}
+.boton {
+	background: #D5230E;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 3px;
+	border: none;
+	color: #fff;
+	padding: 6px;
+	font-family: 'Gafata', sans-serif;
+	font-size: 1.25em;
+	text-decoration: none;
+	color: #fff;
+}
+.boton-log {
+    background:rgba(0,225,0,.8);/*#718B1E Cambio oscarbackground: #D5230E;*/
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 3px;
+	border: none;
+	color: #fff;
+	padding: 6px;
+	font-family: 'Gafata', sans-serif;
+	font-size: 1.25em;
+	text-decoration: none;
+	margin-top: 12px;
+	color: #fff;
+}
+.boton:hover, .botonesacciones:hover, .nuevo:hover {
+	background: #841B0F;
+}
+/*.botonlogin{
+	border-style: solid;
+    border-width: 0 2px 2px 1px;
+    color: #FFFFFF;
+    font-size: 9pt;
+    height: 23px;
+    margin: 0 15px;
+    padding-bottom: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: #033260;
+    border-radius: 10px 10px 10px 10px;
+}*/
+/**Listado**/
+#filtros {
+	width: 900px;
+	margin-top: 1px;
+	margin: 0 auto;
+	float: left;
+}
+.select {
+	background-color: #FFF;
+}
+#bg_seccion_dos {
+	background-image: url(../img/billarmex-img/bg_module_dos.PNG);
+	background-repeat: no-repeat;
+	width: 874px;
+	height: 390px;
+	margin-left: 130px;
+	margin-top: 20px;
+}
+#cosa_dos {
+	/**background-color:#FFF;**/
+	width: 800px;
+	height: 250px;
+	margin-left: 30px;
+	margin-top: 30px;
+	padding-top: 10px;
+}
+.formulario_redondo {
+	background-color: #eeeeee;
+	height: auto;
+	width: 800px;
+	padding-top: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+}
+/*cuadros rojos*/
+#forma1, #formalogin {/*background:#9A8727 url(../img/billarmex-img/intro.png) no-repeat;*/
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	padding-left: 9px;
+	margin-top: 7%;
+	margin-left: auto;
+	margin-right: auto;
+    
+}
+.redondo {
+	margin: auto;
+	padding: 10px;
+	width: 95%;
+	max-width: 1600px;
+	margin: 0 auto;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	height: 65%;
+}
+#form1 {
+	margin-left: 41px;
+}
+/*configuracion del editor*/
+  
+#tipos {
+	color: #FFF;
+	border: #182E85;
+	font-size: 12px;
+}
+#sube {
+	overflow: auto;
+	height: 170px;
+}
+.formulario_uno {
+	background-color: #FFF;
+	height: auto;
+	width: 800px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-ms-border-radius-bottomleft: 10px;
+	-ms-border-radius-bottomright: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+#titulo_dos {
+	color: #182E85;
+	font-size: 26px;
+	background-image: url(../img/billarmex-img/titulo.png);
+	background-repeat: no-repeat;
+	background-position: 0px -2px;
+	height: 60px;
+	width: 300px;
+	margin-left: 100px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.search {
+	width: 300px;
+	margin-left: 700px;
+	margin-top: -100px;
+}
+/**Control de diesel**/
+.PP-03 {
+	color: #099;
+}
+.PP-04 {
+	color: #1F88CF;
+}
+.PP-05 {
+	color: #09C;
+}
+.PP-06 {
+	color: #0C6;
+}
+.PP-07 {
+	color: #093;
+}
+.PP-08 {
+	color: #06C;
+}
+.PP-09 {
+	color: #09F;
+}
+.PP-10 {
+	color: #CFB11F;
+}
+.PP-11 {
+	color: #EBCE42;
+}
+.PP-12 {
+	color: #96F;
+}
+.formulario_tres {
+	background-color: #FFF;
+	height: auto;
+	width: 800px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-ms-border-radius-bottomleft: 10px;
+	-ms-border-radius-bottomright: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+/**Logistica**/
+.table_datos {
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-color: #E6E6E6;
+	border-right-color: #E6E6E6;
+	border-bottom-color: #E6E6E6;
+	border-left-color: #E6E6E6;
+}
+.formulario_dos {
+	background-color: #FFF;
+	height: auto;
+	width: 800px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-ms-border-radius-bottomleft: 10px;
+	-ms-border-radius-bottomright: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+.placas {
+	line-height: 5px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-size: 10px;
+	height: 35px;
+	color: #FFF;
+	background-image: url(../img/billarmex-img/camion_uno.png);
+	background-repeat: no-repeat;
+}
+.placas_des {
+	line-height: 5px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-size: 10px;
+	height: 35px;
+	color: #182E85;
+	background-image: url(../img/billarmex-img/camion_dos.png);
+	background-repeat: no-repeat;
+}
+.tanques {
+	line-height: 5px;
+	padding-left: 10px;
+	height: 45px;
+	font-size: 10px;
+	color: #FFF;
+	background-image: url(../img/billarmex-img/tanque.png);
+	background-repeat: no-repeat;
+}
+.tanques_des {
+	line-height: 5px;
+	padding-left: 10px;
+	height: 15px;
+	font-size: 10px;
+	color: #F90;
+	background-image: url(../img/billarmex-img/tanque_des.png);
+	background-repeat: no-repeat;
+	padding-bottom: 30px;
+	font-weight: 400;
+}
+.tanques_20 {
+	line-height: 6px;
+	padding-left: 20px;
+	height: 15px;
+	font-size: 10px;
+	color: #FFF;
+	background-image: url(../img/billarmex-img/tanque_20.png);
+	background-repeat: no-repeat;
+	padding-bottom: 30px;
+}
+.tanques_20_des {
+	line-height: 6px;
+	padding-left: 20px;
+	height: 15px;
+	font-size: 10px;
+	color: #009;
+	background-image: url(../img/billarmex-img/tanque_20_des.png);
+	background-repeat: no-repeat;
+	padding-bottom: 30px;
+}
+.tanques_solventes {
+	line-height: 5px;
+	padding-left: 10px;
+	height: 45px;
+	font-size: 10px;
+	color: #FFF;
+	background-image: url(../img/billarmex-img/tanque_solvente.png);
+	background-repeat: no-repeat;
+}
+.tanques_solventes_des {
+	line-height: 5px;
+	padding-left: 10px;
+	height: 45px;
+	font-size: 10px;
+	color: #009;
+	background-image: url(../img/billarmex-img/tanque_solvente_des.png);
+	background-repeat: no-repeat;
+}
+.text_legend {
+	font-size: 15px;
+	color: khaki;
+}
+.header_columnas {
+	padding-right: 10px;
+}
+.header_columnas, #numerosformulario {
+	color: #0080A3;
+}
+/*estilos columnas.tpl*/
+
+.botonesacciones {
+	margin-bottom: 20px;
+	margin-left: 5px;
+	height: 40px;
+}
+#nuevobtn, .nuevobtn {
+	width: 30px;
+	height: 40px;
+	background: url(../img/iconos-grandes.jpg) no-repeat -177px 0px;
+}
+#nuevobtn:hover, .nuevobtn:hover {
+	width: 30px;
+	height: 40px;
+	background: url(../img/iconos-grandes.jpg) no-repeat -177px -39px;
+}
+#guardarlistado {
+	padding-right: 5px;
+}
+#botonlistado {
+}
+/*.formularioequote input{border-radius: 1px 0 9px 0;
+    box-shadow: -1px 1px 2px #333333 inset;
+	height:25px;}
+*/
+input[type='text'], input[type='password'] {
+	padding: 9px;
+	border-radius: 2px;
+	border: 2px solid #64A512;
+	color: #64A512;
+	outline: none;
+	width: 100%;
+	font-size: 16px;
+}
+input[type='text']:focus, input[type='password']:focus {
+	border: 2px solid #4D5D38;
+}
+::-webkit-input-placeholder {
+color:#64A512;
+font-style:italic;
+font-size: 16px;
+}
+::-moz-placeholder {
+color:#64A512;
+font-style:italic;
+font-size: 16px;
+} /* firefox 19+ */
+:-ms-input-placeholder {
+color:#64A512;
+font-style:italic;
+font-size: 16px;
+} /* ie */
+input:-moz-placeholder {
+color:#64A512;
+font-style:italic;
+font-size: 16px;
+}
+/*checkbox verdes*/
+input[type=checkbox] {
+	/*width: 120px;
+	height: 40px;*/
+transform: scale(2.5, 2.5);
+-ms-transform: scale(2.5, 2.5);
+-moz-transform: scale(2.5, 2.5);
+-webkit-transform: scale(2.5, 2.5);
+-o-transform: scale(2.5, 2.5);
+zoom:1.05;
+	/*margin-left:53px;*/
+	position:relative;
+
+
+}
+.checkboxOff {
+	background: url(../img/billarmex-img/off.png)no-repeat;
+	width: 21px;
+	height: 21px;
+}
+.checkboxOn {
+	background: url(../img/billarmex-img/off.png)no-repeat;
+	width: 21px;
+	height: 21px;
+}
+/*
+input[type=checkbox].checkbox-1 + label {
+    background: #fff;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background: url(../img/billarmex-img/check.png)no-repeat;
+ }
+ 
+input[type=checkbox].checkbox-1:checked + label {
+background: url(../img/billarmex-img/off.png)no-repeat;
+ width: 21px;
+height: 21px;
+}	*/
+label, input {
+	cursor: pointer;
+}
+#ancho input {
+	width: 113px;
+}
+#tipo {
+	font-size: x-small;
+	color: #015E75;
+}
+#observaciones {
+	box-shadow: 1px 1px 3px #333333 inset;
+	color: #222;
+	font-size: small;
+	height: 117px;
+	margin-bottom: 8px;
+	width: 100%;
+}
+#verdes fieldset {
+	overflow: hidden;
+	position: relative;
+}
+#interfazbtn {
+	float: right;
+	display: block;
+}
+.margen {
+	width: auto;
+	/*margin-left:-97px;*/
+	margin-top: -5px;
+	font-weight: bold;
+}
+.vermini {
+	background: url(../img/iconos-grid.png)no-repeat -1px -2px;
+}
+.editarmini {
+	background: url(../img/iconos-grid.png) no-repeat -40px -2px;
+}
+.eliminarmini {
+	background: url(../img/iconos-grid.png) no-repeat -89px -2px;
+}
+.imprimirmini {
+	background: url(../img/iconos-grid.png) no-repeat -140px -2px;
+}
+.historialmini {
+	background: url(../img/historialmini2.png);
+}
+.guardarbtn {
+	background: url(../img/iconos-grandes.jpg) no-repeat -218px 0px;
+}
+.guardarbtn:hover {
+	background: url(../img/iconos-grandes.jpg) no-repeat -218px -39px;
+}
+.listadobtn {
+	background: url(../img/iconos-grandes.jpg) no-repeat -50px 0px;
+}
+.listadobtn:hover {
+	background: url(../img/iconos-grandes.jpg) no-repeat -50px -39px;
+}
+.editarbtn {
+	background: url(../img/iconos-grandes.jpg) no-repeat -4px 0px;
+}
+.editarbtn:hover {
+	background: url(../img/iconos-grandes.jpg) no-repeat 0px -39px;
+}
+.eliminarbtn {
+	background: url(../img/iconos-grandes.jpg) no-repeat -142px 0px;
+}
+.eliminarbtn:hover {
+	background: url(../img/iconos-grandes.jpg) no-repeat -142px -39px;
+}
+.imprimirbtn {
+	background: url(../img/iconos-grandes.jpg) no-repeat -97px 0px;
+}
+.imprimirbtn:hover {
+	background: url(../img/iconos-grandes.jpg) no-repeat -97px -39px;
+}
+.historialbtn {
+	background: url(../img/billarmex-img/historial2z.png) top;
+}
+.historialbtn:hover {
+	background: url(../img/billarmex-img/historial2z.png) bottom;
+}
+.first_grid, .prev_grid, .next_grid, .last_grid {
+	width: 25px;
+	height: 25px;
+}
+.first_grid {
+	background: url(../img/billarmex-img/first.jpg);
+}
+.prev_grid {
+	background: url(../img/billarmex-img/prev.jpg);
+}
+.next_grid {
+	background: url(../img/billarmex-img/next.jpg);
+}
+.last_grid {
+	background: url(../img/billarmex-img/last.jpg);
+}
+.user {
+	margin-left: 10px;
+	display: block;
+}
+.facturarmini {
+	background: url(../img/billarmex-img/facturarmini.png);
+}
+/***=========Comienza el footer ========*****/
+
+footer {
+	width: 100%;
+	overflow: hidden;
+	float: left;
+	margin-top: 15px;
+}
+footer .w-footer {
+	width: 95%;
+	margin: 0 auto;
+	max-width: 1600px;
+	clear: both;
+}
+footer .secc-footer {
+	float: left;
+	width: 40%;
+	overflow: hidden;
+}
+footer .secc-footer-der {
+	float: right;
+	width: 40%;
+	overflow: hidden;
+	text-align: right;
+}
+/*****===============================Comienzan los campos===============/*******/
+#campos {
+	float: left;
+	margin-top: 70px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+	padding-bottom: 8px;
+}
+.icono {
+	margin-top: -35px;
+	margin-left: 11px;
+	float: left;
+}
+.listadox {
+	background: url(../img/iconos-btn.png) no-repeat -41px 5px;
+	width: 44px;
+	height: 76px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+margin-left: 15px;
+}
+.editarx {
+	background: url(../img/iconos-btn.png) no-repeat 5px 5px;
+	width: 44px;
+	height: 78px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+margin-left: 15px;
+}
+.imprimirx {
+	background: url(../img/iconos-btn.png) no-repeat -84px 5px;
+	width: 44px;
+	height: 78px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+margin-left: 15px;
+}
+.agregarx {
+	background: url(../img/iconos-btn.png) no-repeat -41px 5px;
+	width: 44px;
+	height: 78px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+margin-left: 15px;
+}
+.eliminarx {
+	background: url(../img/iconos-btn.png) no-repeat -134px 5px;
+	width: 44px;
+	height: 78px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+margin-left: 15px;
+}
+.guardarx {
+	background: url(../img/iconos-btn.png) no-repeat -209px 5px;
+	width: 44px;
+	height: 78px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+margin-left: 15px;
+}
+.nuevO, .Fila, .listadox, .editarx, .imprimirx, .agregarx, .eliminarx, .guardarx {
+	margin-top: 12px;
+}
+.nuevO {
+	background: url(../img/iconos-btn.png) no-repeat -169px 5px;
+	width: 44px;
+	height:78px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+margin-left: 15px;
+}
+.agregate {
+	float: left;
+	margin-left: 87px;
+	margin-top: -46px;
+	position: relative;
+margin-left: 15px;
+}
+.Fila {
+	background: url(../img/iconos-btn.png) no-repeat -244px 5px;
+	width: 44px;
+	height: auto;
+	text-align:center;
+	float: left;
+	cursor: pointer;
+	position: relative;
+margin-left: 15px;
+}
+.subiconos {
+	margin-top: -5px;
+	margin-left: 40px;
+	padding: 0px 0px 0px 20px;
+}
+.submenu-linea {
+	width: 600px;
+	display: inline-block;
+}
+.submenu {
+/*	margin-left: 2%;*/
+	margin-top: 20px;
+	float: left;
+	width: 10%;
+	background:#F96959;
+	color:#fff;
+	font-weight:bold;
+	height:auto;
+	padding: 3px;
+}
+.submenu {
+	margin-top: 20px;
+	float: left;
+	width: 80px;
+}
+.submenu p {
+	font-size: 14px;
+	padding-top: 33px;
+	text-align: left;
+	font-weight:bold;
+}
+.subtitulo {
+	margin-top: -52px;
+	margin-left: 40px;
+	padding: 0px 0px 0px 20px;
+}
+.subreporte {
+	margin-top: 21px;
+	float: left;
+	margin-left: 40px;
+	padding: 0px 0px 0px 20px;
+}
+.contactar {
+	margin-right: -332px;
+	margin-top: 40px;
+	float: right;
+	width: 160px;
+}
+.contactar a {
+	color: #fff;
+	background: none repeat scroll 0 0 #4E0000;
+	border-radius: 5px 5px 5px 5px;
+	padding: 2px 4px 5px 3px;
+	text-align: center;
+}
+.contactar a:hover {
+	color: #3D0100 !important;
+	background: #EECC88;
+}
+.report-bg {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+	padding: 8px;
+	border-radius: 20px;
+}
+.buscar {
+	background: url(/../img/billarmex-img/buscarz.png) no-repeat;
+}
+#flecha {
+	background: url(../img/billarmex-img/downz.gif) no-repeat;
+}
+.contrasena {
+	background: #FFF url(../img/billarmex-img/candadob.png) no-repeat right;
+	padding: 2px 41px 2px 28px;
+	float: left;
+}
+.usuario {
+	background: #FFF url(../img/billarmex-img/usuarioxz.png) no-repeat right;
+	float: left;
+}
+.terminux {
+	color: #B66252;
+}
+.terminux:hover {
+	color: #4E0000;
+}
+/*Cominezas loes estilo de los iconos de os grids*/
+.autorizarmini {
+	background: url(../img/autorizarmini-billarmex.png) no-repeat;
+	width: 19px;
+	height: 22px;
+	border: none;
+}
+/*Tablas reposivas*/
+
+.tablas-res {
+	position: relative;
+	padding: 45px 15px 15px;
+	margin: 0 -15px 15px;
+	background-color: #fafafa;
+	box-shadow: inset 0 3px 6px rgba(0,0,0,.05);
+	border-color: #e5e5e5 #eee #eee;
+	border-style: solid;
+	border-width: 1px 0;
+	width: 100%;
+	display: inline-block;
+}
+.tp {
+	width: 31%;
+	margin-left: 56px;
+	padding-bottom: 13px;
+}
+.tp tr {
+	width: 250px;
+}
+.tpbase {
+	background: #D5230E;
+	color: #FFF;
+}
+.campos {
+	width: 128px !important;
+}
+.contenedor_alerta{
+display: block;
+width: 20em;
+padding: 12px;
+position: fixed;
+top: 50%;
+left: 76%;
+z-index: 35;
+}
+.alerta {
+	display: block;
+width: 18em;
+padding: 12px;
+position: fixed;
+top: 50%;
+left: 76%;
+background: rgba(206,237,125,0.9);
+border: 2px solid green;
+line-height: 17px;
+border-radius:8px;
+-webkit-box-shadow: 1px 1px 2px 3px rgba(0, 0, 0, .3);
+box-shadow: 1px 1px 2px 3px rgba(0, 0, 0, .3);
+z-index: 35;
+cursor:pointer;
+}
+.alerta div{ background:#FFF; padding:15px;border-radius:8px; border:1px solid #F40004}
+.alerta div h3{ color:#F40004; font-size:18px; font-weight:bold; font-style:italic;  text-align:center; }
+.cerrarse {
+	background: none repeat scroll 0 0 #008000;
+    border: medium none;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    left: -2em;
+    position: relative;
+    top: -2em;
+    width: 2em;
+    z-index: 61;
+
+}
+
+.cerrarse:hover,.acep:hover, .linksd:hover{
+	opacity:0.6;}
+.acep{
+	display: block;
+width:100px ;
+font-size: 14px;
+background: green;
+border: none;
+border-radius: 3px;
+color: #fff;
+font-weight: bold;
+	}
+.alerta div p,.linksd{text-decoration:none; color:#799A06; font-weight:bold; font-size:18px; font-style:italic; }
+.productos-ojo{ display:block; width:40px; position:relative; margin-top:0px;}
+.productos-ojo p { position:relative; display:block; margin-top:-30px; text-align:center;}
+.btn-inferior p{ display:block; position:relative; top:-40px; font-weight:bold; text-align:center; color:#FB0105;}
+.btn-infe{ display:block;position:relative; width:80px;top:-6px;}
+.nuv-img{ display:block; position:relative; top:12px;}
+.Botones a{
+	background:#82CD15;
+	display:block;
+	border-radius:4px;
+	border:1px solid #136C05;
+	padding:6px;
+	width:120px; 
+	/*float:left;*/
+	margin-left:6px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;}
+.Botones a:hover{ background:#B0DD61;}	
+.b{ background: url("../img/iconos-grid.png") no-repeat scroll -172px 29px #E03235 !important;
+    display: block !important;
+    height: 55px;
+    left: -21em !important;
+    padding: 10px !important;
+    position: relative !important;
+    text-align: left !important;
+    width: 60px !important;}
+	.b:hover{ opacity:0.6;}
+.fr{ float:right;}
+.fl{ float:left;}

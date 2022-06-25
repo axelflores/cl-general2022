@@ -1,0 +1,1 @@
+DELETE FROM ec_productos_imagenes_adicionales WHERE id_producto = '2291'|

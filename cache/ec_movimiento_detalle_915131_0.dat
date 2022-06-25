@@ -1,0 +1,1 @@
+DELETE FROM ec_movimiento_detalle WHERE id_movimiento = '915131'|

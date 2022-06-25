@@ -1,0 +1,54 @@
+SELECT
+	p.id_productos,
+	p.orden_lista,
+	p.nombre,
+	SUM( IF( md.id_movimiento IS NULL, 0, ( tm.afecta *md.cantidad ) ) ) AS inventario,
+	alm.nombre AS almacen
+FROM 
+ec_productos p 
+LEFT JOIN ec_movimiento_detalle md
+ON p.id_productos = md.id_producto
+LEFT JOIN  ec_movimiento_almacen ma
+ON ma.id_movimiento_almacen = md.id_movimiento
+LEFT JOIN ec_tipos_movimiento tm
+ON tm.id_tipo_movimiento = ma.id_tipo_movimiento
+LEFT JOIN ec_almacen alm 
+ON alm.id_almacen = ma.id_almacen
+WHERE p.id_productos IN( '2737' )
+AND ma.id_sucursal = 2
+GROUP BY alm.id_almacen
+
+/*desgloce de inventario*/
+SELECT
+	p.id_productos,
+	p.orden_lista,
+	p.nombre,
+	SUM( IF( md.id_movimiento IS NULL, 0, ( tm.afecta *md.cantidad ) ) ) AS inventario,
+	alm.nombre AS almacen
+FROM 
+ec_productos p 
+LEFT JOIN ec_movimiento_detalle md
+ON p.id_productos = md.id_producto
+LEFT JOIN  ec_movimiento_almacen ma
+ON ma.id_movimiento_almacen = md.id_movimiento
+LEFT JOIN ec_tipos_movimiento tm
+ON tm.id_tipo_movimiento = ma.id_tipo_movimiento
+LEFT JOIN ec_almacen alm 
+LEFT JOIN sys_sucursales s 
+ON s.id_sucursal = ma.id_sucursal
+ON alm.id_almacen = ma.id_almacen
+WHERE p.id_productos IN( '2737' )
+GROUP BY md.id_movimiento_almacen_detalle
+
+SELECT 
+	p.orden_lista, 
+	p.ubicacion_almacen, 
+	p.nombre, 
+	SUM( IF( md.id_movimiento IS NULL, 0, md.cantidad*tm.afecta ) ) AS existencia 
+FROM ec_productos p 
+LEFT JOIN ec_movimiento_detalle md ON p.id_productos = md.id_producto 
+LEFT JOIN ec_movimiento_almacen ma ON md.id_movimiento = ma.id_movimiento_almacen 
+LEFT JOIN ec_tipos_movimiento tm ON ma.id_tipo_movimiento = tm.id_tipo_movimiento 
+WHERE 1 AND ma.id_sucursal = 2  
+AND p.id_productos IN( 2737 ) 
+GROUP BY p.id_productos, ma.id_almacen ORDER BY p.orden_lista

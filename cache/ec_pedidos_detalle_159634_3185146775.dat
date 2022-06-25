@@ -1,0 +1,1 @@
+DELETE FROM ec_pedidos_detalle WHERE id_pedido = '159634' AND id_pedido_detalle <> 543313|UPDATE ec_pedidos_detalle SET id_pedido_detalle='543313',id_pedido='159634',id_producto='3000',cantidad='12',cantidad_surtida='0',precio='34.5',monto='414',iva='0',ieps='0' WHERE id_pedido_detalle=543313|

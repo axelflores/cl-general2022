@@ -1,0 +1,6 @@
+mysqldump.exe: Got error: 1044: "Access denied for user ''@'localhost' to database 'pruebas_oscar'" when selecting the database
+
+Comando ejecutado: c:/xampp/mysql/bin/mysqldump.exe -h localhost  -u root --password="" --disable-keys --triggers -u ejemplo pruebas_oscar > ../../respaldos/20191008casa.sql 2>../../respaldos/errores.log
+Hora:16:07:58
+Comando ejecutado: mysqldump -h www.casadelasluces.com  -u wwcasa_sistema --password="sistemaGeneral" --disable-keys wwcasa_sistema_general > ../../respaldos/20210624casa.sql 2>../../respaldos/errores.log
+Hora:11:18:01
