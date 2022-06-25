@@ -1,0 +1,1 @@
+DELETE FROM ec_oc_recepcion_detalle WHERE id_oc_recepcion = '516'|

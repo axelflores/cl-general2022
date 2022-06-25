@@ -1,0 +1,1 @@
+DELETE FROM ec_oc_detalle WHERE id_orden_compra = '191' AND id_oc_detalle <> 1172|UPDATE ec_oc_detalle SET id_oc_detalle='1172',id_orden_compra='191',id_producto='2667',cantidad='23',cantidad_surtido='0',precio='51',iva='0',ieps='0',observaciones='' WHERE id_oc_detalle=1172|

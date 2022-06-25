@@ -1,0 +1,1 @@
+DELETE FROM ec_precios_detalle WHERE id_precio = '25'|

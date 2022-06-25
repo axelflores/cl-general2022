@@ -1,0 +1,1 @@
+DELETE FROM ec_oc_pagos WHERE id_oc_pagos = '10' AND id_oc_pagos <> 5|UPDATE ec_oc_pagos SET id_oc_pagos='5',id_oc='10',id_tipo_pago='1',fecha='2019-09-18',id_moneda='1',monto='50000',referencia='HUNGS0001',hora='14:32:50',tipo_cambio='0',id_nota_credito='-1',id_cxp='-1' WHERE id_oc_pagos=5|

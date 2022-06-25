@@ -1,0 +1,1 @@
+DELETE FROM ec_pedido_pagos WHERE id_pedido = '159634' AND id_pedido_pago <> 187140|UPDATE ec_pedido_pagos SET id_pedido_pago='187140',id_pedido='159634',id_tipo_pago='1',fecha='2019-12-16',hora='20:51:56',id_moneda='1',monto='414',referencia='',tipo_cambio='1',id_nota_credito='-1',id_cxc='-1' WHERE id_pedido_pago=187140|

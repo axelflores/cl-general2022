@@ -1,0 +1,1 @@
+DELETE FROM ec_productos_sim_mas_caros WHERE id_producto = '1821'|

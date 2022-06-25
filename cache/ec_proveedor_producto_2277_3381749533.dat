@@ -1,0 +1,1 @@
+DELETE FROM ec_proveedor_producto WHERE id_producto = '2277'|

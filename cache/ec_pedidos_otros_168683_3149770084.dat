@@ -1,0 +1,1 @@
+DELETE FROM ec_pedidos_otros WHERE id_pedido = '168683'|

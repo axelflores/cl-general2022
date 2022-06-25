@@ -1,0 +1,1 @@
+DELETE FROM ec_proveedor_producto WHERE id_producto = '2291' AND id_proveedor_producto <> 642|UPDATE ec_proveedor_producto SET id_proveedor_producto='642',id_producto='2291',id_proveedor='3',clave_proveedor='1387R',precio_pieza='30.00',presentacion_caja='24',precio='720' WHERE id_proveedor_producto=642|
